@@ -15,7 +15,7 @@ bpython is a fancy interface to the Python interpreter.
 
 ## Tags
 
-* `latest` tracks the current stable release of bpython
+* `latest` tracks the current stable release of bpython for Python3
 
 ## License
 
