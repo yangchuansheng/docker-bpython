@@ -14,4 +14,4 @@ RUN apk update \
     && apk del gcc musl-dev python3-dev \
     && rm -rf /root/.cache
 
-ENTRYPOINT ["bpython"]
+CMD ["bpython"]
