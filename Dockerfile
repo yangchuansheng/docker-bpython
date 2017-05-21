@@ -1,4 +1,4 @@
-FROM colstrom/python
+FROM python:alpine
 
 RUN apk update \
     && apk add gcc musl-dev python3-dev \
