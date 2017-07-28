@@ -1,7 +1,7 @@
 FROM python:alpine
 
 RUN apk update \
-    && apk add gcc musl-dev python3-dev \
+    && apk add gcc g++ musl-dev python3-dev \
     && pip3 install pygments \
     && pip3 install requests \
     && pip3 install sphinx \
@@ -11,6 +11,7 @@ RUN apk update \
     && pip3 install greenlet \
     && pip3 install urwid \
     && pip3 install bpython \
+    && pip3 install numpy \
     && apk del gcc musl-dev python3-dev \
     && rm -rf /root/.cache
 
