@@ -12,6 +12,7 @@ RUN apk update \
     && pip3 install urwid \
     && pip3 install bpython \
     && pip3 install numpy \
+    && pip3 install ipython \
     && apk del gcc musl-dev python3-dev \
     && rm -rf /root/.cache
 
